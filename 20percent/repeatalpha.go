@@ -19,9 +19,11 @@ func RepeatAlpha(s string) string {
 	}
 	return result
 }
-func isUpper(r rune) bool {
-	return r >= 'A' && r <= 'Z'
-}
+
+// func isUpper(r rune) bool { // isUpper redeclared in cameltosnakecase
+//
+//		return r >= 'A' && r <= 'Z'
+//	}
 func isLower(r rune) bool {
 	return r >= 'a' && r <= 'z'
 }
